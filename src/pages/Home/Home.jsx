@@ -3,6 +3,7 @@ import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 import assets from '../../assets/assets'
 import './Home.css'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
 
@@ -34,7 +35,7 @@ const Home = () => {
     {
       id: 5,
       image: assets.realestate,
-      title: "Real Estates",
+      title: "Real Estate",
       desc: "Premium quality river sand for construction and concrete work.",
     },
     {
@@ -57,25 +58,25 @@ const Home = () => {
     },
     {
       id: 9,
-      image: assets.solar,
+      image: assets.jelly,
       title: "Jelly",
       desc: "Specially graded sand for concrete mixing and masonry work.",
     },
     {
       id: 10,
-      image: assets.solar,
+      image: assets.filling,
       title: "Basement Filling Materials",
       desc: "Specially graded sand for concrete mixing and masonry work.",
     },
     {
       id: 11,
-      image: assets.solar,
+      image: assets.loans,
       title: "Loans",
       desc: "Specially graded sand for concrete mixing and masonry work.",
     },
     {
       id: 12,
-      image: assets.solar,
+      image: assets.alteration,
       title: "Building Alteration",
       desc: "Specially graded sand for concrete mixing and masonry work.",
     },
@@ -195,11 +196,12 @@ const Home = () => {
 
           <div className="product-grid">
             {categories.map((cat) => (
-              <div className="product-card" key={cat.id}>
+              <Link to={`/products/${encodeURIComponent(cat.title.toLowerCase())}`} key={cat.id} className='product-link' ><div className="product-card">
                 <img src={cat.image} alt={cat.title} className="product-img" />
                 <h3 className="product-name">{cat.title}</h3>
                 <p className="product-desc">{cat.desc}</p>
               </div>
+              </Link>
             ))}
           </div>
         </div>

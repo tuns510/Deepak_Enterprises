@@ -16,11 +16,11 @@ const Header = () => {
                 <div className="header-right">
                     <div className="contact-item">
                         <img src={assets.phoneIcon} alt="Phone" className="icon" />
-                        <span>+91 98765 43210</span>
+                        <span>+91 9840929131</span>
                     </div>
                     <div className="contact-item">
                         <img src={assets.mailIcon} alt="Email" className="icon" />
-                        <span>info@deepakenterprise.com</span>
+                        <span>deepakenterprise@gmail.com</span>
                     </div>
                 </div>
 

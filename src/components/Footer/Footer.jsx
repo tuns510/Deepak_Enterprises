@@ -50,11 +50,11 @@ const Footer = () => {
                         <h4 className="footer-subtitle">Contact Us</h4>
                         <p className="footer-contact">
                             <img src={assets.LitephoneIcon} alt="Phone" className="footer-icon" />
-                            +91 98765 43210
+                            +91 9840929131
                         </p>
                         <p className="footer-contact">
                             <img src={assets.LitemailIcon} alt="Email" className="footer-icon" />
-                            info@deepakenterprise.com
+                            deepakenterprise@gmail.com
                         </p>
                         <p className="footer-contact">
                             <img src={assets.clockIcon} alt="Clock" className="footer-icon" />
