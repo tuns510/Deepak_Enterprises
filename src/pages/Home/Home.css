@@ -2,7 +2,8 @@
 .hero-section {
   position: relative;
   width: 100%;
-  height: 70vh; /* full screen */
+  height: 70vh;
+  /* full screen */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,7 +16,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* makes it behave like background-size: cover */
+  object-fit: cover;
+  /* makes it behave like background-size: cover */
   z-index: -2;
 }
 
@@ -25,7 +27,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.3); /* dark overlay */
+  background: rgba(0, 0, 0, 0.3);
+  /* dark overlay */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -73,7 +76,8 @@
 
 .btn-primary {
   background-color: #fff;
-  color: #8b4513; /* brownish tone */
+  color: #8b4513;
+  /* brownish tone */
   border: none;
 }
 
@@ -96,7 +100,7 @@
 /* ---------- ABOUT DE SECTION ---------- */
 .about-de {
   padding: 80px 60px;
-  background-color: #fff;
+  background-color: #3F2305;
 }
 
 .about-de-container {
@@ -115,14 +119,14 @@
 .about-de-title {
   font-size: 28px;
   font-weight: 700;
-  color: #1f2937;
+  color: #fff;
   margin-bottom: 20px;
 }
 
 .about-de-text {
   font-size: 16px;
   line-height: 1.7;
-  color: #4b5563;
+  color: white;
   margin-bottom: 18px;
 }
 
@@ -135,13 +139,13 @@
 .stat-item h3 {
   font-size: 22px;
   font-weight: 700;
-  color: #8b4513; /* brownish accent */
+  color: #FFFEF1;
   margin-bottom: 6px;
 }
 
 .stat-item span {
   font-size: 14px;
-  color: #6b7280;
+  color: white;
 }
 
 .about-de-image {
@@ -155,13 +159,13 @@
   max-width: 500px;
   border-radius: 12px;
   object-fit: cover;
-  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 
 /* ---------- HOW IT WORKS ---------- */
 .how-it-works {
-  background-color: #f9fafb;
+  background-color: #FFFEF1;
   padding: 80px 60px;
   text-align: center;
 }
@@ -169,13 +173,13 @@
 .how-it-works-title {
   font-size: 28px;
   font-weight: 700;
-  color: #1f2937;
+  color: #3F2305;
   margin-bottom: 12px;
 }
 
 .how-it-works-subtitle {
   font-size: 16px;
-  color: #4b5563;
+  color: #444;
   margin-bottom: 50px;
   max-width: 700px;
   margin-left: auto;
@@ -199,7 +203,7 @@
 
 .how-it-works-step:hover {
   transform: translateY(-6px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
 .step-icon {
@@ -221,12 +225,12 @@
   font-size: 16px;
   font-weight: 700;
   margin-bottom: 10px;
-  color: #111827;
+  color: #3F2305;
 }
 
 .step-desc {
   font-size: 14px;
-  color: #6b7280;
+  color: #222;
   line-height: 1.6;
 }
 
@@ -234,20 +238,20 @@
 /* ---------- PRODUCT CATEGORY ---------- */
 .product-category {
   padding: 80px 60px;
-  background-color: #fff;
+  background-color: #3F2305;
   text-align: center;
 }
 
 .product-category-title {
   font-size: 28px;
   font-weight: 700;
-  color: #1f2937;
+  color: #FFFEF1;
   margin-bottom: 12px;
 }
 
 .product-category-subtitle {
   font-size: 16px;
-  color: #4b5563;
+  color: white;
   margin-bottom: 50px;
   max-width: 700px;
   margin-left: auto;
@@ -273,7 +277,7 @@
 
 .product-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
   background: #fff;
 }
 
@@ -300,10 +304,11 @@
 
 /* ---------- GET QUOTE ---------- */
 .get-quote {
-  background-color: #a47c48; /* brownish gold */
+  background-color: #FFFEF1;
+  /* brownish gold */
   padding: 80px 20px;
   text-align: center;
-  color: #fff;
+  color: #3F2305;
 }
 
 .get-quote-title {
@@ -316,7 +321,7 @@
   font-size: 16px;
   max-width: 700px;
   margin: 0 auto 40px auto;
-  color: #f3f4f6;
+  color: #3F2305;
   line-height: 1.6;
 }
 
@@ -338,23 +343,25 @@
 }
 
 .quote-btn.primary {
-  background-color: #fff;
-  color: #a47c48;
+  background-color: #3F2305;
+  color: #FFFEF1;
 }
 
 .quote-btn.primary:hover {
-  background-color: #f3f4f6;
+  background-color: #FFFEF1;
+  border: 1.5px solid #3F2305;
+  color: #3F2305;
 }
 
 .quote-btn.secondary {
   background: transparent;
-  color: #fff;
-  border: 1.5px solid #fff;
+  color: #3F2305;
+  border: 1.5px solid #3F2305;
 }
 
 .quote-btn.secondary:hover {
-  background: #fff;
-  color: #a47c48;
+  color: #FFFEF1;
+  background-color: #3F2305;
 }
 
 /* ---------- RESPONSIVE ---------- */
@@ -390,6 +397,7 @@
   .product-category {
     padding: 50px 20px;
   }
+
   .product-grid {
     grid-template-columns: 1fr;
   }
