@@ -16,6 +16,10 @@
   gap: 12px;
 }
 
+.header-left a {
+  text-decoration: none;
+}
+
 .logo {
   width: 70px;
   height: 70px;
@@ -43,6 +47,15 @@
   color: #3F2305;
 }
 
+.contact-item a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
 .icon {
   width: 16px;
   height: 16px;
@@ -50,7 +63,7 @@
 }
 
 @media (max-width: 768px) {
-    .company-name {
+    .header-right {
         display: none;
     }
 

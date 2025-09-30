@@ -17,7 +17,7 @@ const Footer = () => {
                         </p>
                         <p className="footer-address">
                             <img src={assets.locationIcon} alt="Location" className="footer-icon" />
-                            Redhills, Chennai
+                            Plot no 522, 25th street, Maruthupandian Nagar, Padiyanallur, Chennai.
                         </p>
                     </div>
 
@@ -50,11 +50,25 @@ const Footer = () => {
                         <h4 className="footer-subtitle">Contact Us</h4>
                         <p className="footer-contact">
                             <img src={assets.LitephoneIcon} alt="Phone" className="footer-icon" />
-                            +91 9840929131
+                            <a href="tel:+919840929131">+91 98409 29131</a>
+                        </p>
+                        <p className="footer-contact">
+                            <img src={assets.LitephoneIcon} alt="Phone" className="footer-icon" />
+                            <a href="tel:+919790976509">+91 97909 76509</a>
+                        </p>
+                        <p className="footer-contact">
+                            <img src={assets.LitephoneIcon} alt="Phone" className="footer-icon" />
+                            <a href="tel:+919840027125">+91 98400 27125</a>
+                        </p>
+                        <p className="footer-contact">
+                            <img src={assets.LitephoneIcon} alt="Phone" className="footer-icon" />
+                            <a href="tel:+917305864925">+91 73058 64925</a>
                         </p>
                         <p className="footer-contact">
                             <img src={assets.LitemailIcon} alt="Email" className="footer-icon" />
-                            deepakenterprise@gmail.com
+                            <a href="mailto:deepakenterprises1980@gmail.com?subject=Business Inquiry&body=Hello, I would like to know more about your services.">
+                                deepakenterprises1980@gmail.com
+                            </a>
                         </p>
                         <p className="footer-contact">
                             <img src={assets.clockIcon} alt="Clock" className="footer-icon" />

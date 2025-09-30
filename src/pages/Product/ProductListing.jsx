@@ -16,7 +16,7 @@ const ProductListing = () => {
     return (
         <div>
             <Header/>
-            <section className="product-listing">
+            <section id="product-listing">
                 <div className="listing-header">
                     <h2>Complete Construction & Services Solutions</h2>
                     <p>Your one-stop destination for all construction materials, services, and solutions</p>
@@ -30,7 +30,7 @@ const ProductListing = () => {
                                 <span className="product-category">{product.category}</span>
                                 <h3>{product.name}</h3>
                                 <p>High-quality materials with trusted service.</p>
-                                <button>Contact for Price</button>
+                                <a href="tel:+919840929131"><button>Contact for Price</button></a>
                             </div>
                         </div>
                     ))}

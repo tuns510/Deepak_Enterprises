@@ -1,18 +1,18 @@
 /* ========== PRODUCT LISTING ========== */
-.product-listing {
+#product-listing {
   padding: 60px 20px;
   background: #3F2305;
   text-align: center;
 }
 
-.product-listing .listing-header h2 {
+#product-listing .listing-header h2 {
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 10px;
   color: #FFFEF1;
 }
 
-.product-listing .listing-header p {
+#product-listing .listing-header p {
   color: white;
   font-size: 16px;
   margin-bottom: 40px;

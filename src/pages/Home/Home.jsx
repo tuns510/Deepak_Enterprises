@@ -1,4 +1,5 @@
 import React from 'react'
+import { HashLink } from 'react-router-hash-link';
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 import assets from '../../assets/assets'
@@ -119,8 +120,8 @@ const Home = () => {
               Quality guaranteed, delivery on time.
             </p>
             <div className="hero-buttons">
-              <button className="btn btn-primary">Get Quote Now</button>
-              <button className="btn btn-outline">View Products</button>
+              <a href="https://wa.me/919840929131" target="_blank" rel="noopener noreferrer"><button className="btn btn-primary">Get Quote Now</button></a>
+              <HashLink smooth to='#product-category'><button className="btn btn-outline">View Products</button></HashLink>
             </div>
           </div>
         </div>
@@ -131,7 +132,7 @@ const Home = () => {
 
           {/* Left Content */}
           <div className="about-de-content">
-            <h2 className="about-de-title">About Deepak Enterprise</h2>
+            <h2 className="about-de-title">About Us</h2>
             <p className="about-de-text">
               With over two decades of experience in the construction materials industry,
               Deepak Enterprise has established itself as a reliable supplier of premium
@@ -187,21 +188,21 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="product-category">
+      <section id="product-category">
         <div className="product-category-container">
-          <h2 className="product-category-title">Our Product Categories</h2>
+          <h2 className="product-category-title">Products under Deepak & Tanisha Enterprises</h2>
           <p className="product-category-subtitle">
             We offer a comprehensive range of high-quality sand and other materials for all your project needs.
           </p>
 
           <div className="product-grid">
             {categories.map((cat) => (
-              <Link to={`/products/${encodeURIComponent(cat.title.toLowerCase())}`} key={cat.id} className='product-link' ><div className="product-card">
+              <HashLink to={`/products/${encodeURIComponent(cat.title.toLowerCase())}#product-listing`} key={cat.id} className='product-link' ><div className="product-card">
                 <img src={cat.image} alt={cat.title} className="product-img" />
                 <h3 className="product-name">{cat.title}</h3>
                 <p className="product-desc">{cat.desc}</p>
               </div>
-              </Link>
+              </HashLink>
             ))}
           </div>
         </div>
@@ -214,8 +215,8 @@ const Home = () => {
             Contact us today for a free quote and let us help you with your construction material needs.
           </p>
           <div className="get-quote-buttons">
-            <button className="quote-btn primary">Get Free Quote</button>
-            <button className="quote-btn secondary">Call Now: +91 98765 43210</button>
+            <a href="https://wa.me/919840929131" target="_blank" rel="noopener noreferrer"><button className="quote-btn primary">Get Free Quote</button></a>
+            <a href="tel:+919790976509"><button className="quote-btn secondary">Call Now: +91 97909 76509</button></a>
           </div>
         </div>
       </section>
