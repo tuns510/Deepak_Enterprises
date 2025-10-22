@@ -106,7 +106,7 @@
 
 
 /* ---------- ABOUT DE SECTION ---------- */
-.about-de {
+#about-de {
   padding: 80px 60px;
   background-color: #3F2305;
 }
@@ -317,7 +317,7 @@
 }
 
 /* ---------- GET QUOTE ---------- */
-.get-quote {
+#get-quote {
   background-color: #FFFEF1;
   /* brownish gold */
   padding: 80px 20px;
@@ -380,7 +380,7 @@
 
 /* ---------- RESPONSIVE ---------- */
 @media (max-width: 576px) {
-  .get-quote {
+  #get-quote {
     padding: 60px 15px;
   }
 
@@ -454,7 +454,7 @@
 }
 
 @media (max-width: 576px) {
-  .about-de {
+  #about-de {
     padding: 50px 20px;
   }
 

@@ -26,10 +26,9 @@ const Footer = () => {
                         <h4 className="footer-subtitle">Quick Links</h4>
                         <ul className="footer-links">
                             <li><a href="#">Home</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Products</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="#about-de">About Us</a></li>
+                            <li><a href="#product-category">Products</a></li>
+                            <li><a href="#get-quote">Contact</a></li>
                         </ul>
                     </div>
 
@@ -37,11 +36,10 @@ const Footer = () => {
                     <div className="footer-col">
                         <h4 className="footer-subtitle">Our Products</h4>
                         <ul className="footer-links">
-                            <li><a href="#">River Sand</a></li>
-                            <li><a href="#">Construction Sand</a></li>
-                            <li><a href="#">Silica Sand</a></li>
-                            <li><a href="#">Concrete Sand</a></li>
-                            <li><a href="#">Aggregates</a></li>
+                            <li><a href="#product-category">Sand</a></li>
+                            <li><a href="#product-category">Paints</a></li>
+                            <li><a href="#product-category">Furniture</a></li>
+                            <li><a href="#product-category">Building materials</a></li>
                         </ul>
                     </div>
 

@@ -24,7 +24,7 @@ const Home = () => {
     {
       id: 3,
       image: assets.interior,
-      title: "Interior Designs",
+      title: "Interior Design",
       desc: "Pure silica sand for specialized construction applications.",
     },
     {
@@ -127,7 +127,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="about-de">
+      <section id="about-de">
         <div className="about-de-container">
 
           {/* Left Content */}
@@ -208,7 +208,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="get-quote">
+      <section id="get-quote">
         <div className="get-quote-container">
           <h2 className="get-quote-title">Ready to Get Started?</h2>
           <p className="get-quote-subtitle">
