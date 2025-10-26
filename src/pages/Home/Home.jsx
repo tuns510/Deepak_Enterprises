@@ -81,6 +81,12 @@ const Home = () => {
       title: "Building Alteration",
       desc: "Specially graded sand for concrete mixing and masonry work.",
     },
+    {
+      id:13,
+      image: assets.construction,
+      title: "Building Constructions",
+      desc: "Our projects.",
+    },
   ];
 
   const steps = [

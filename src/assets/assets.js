@@ -31,7 +31,7 @@ import marble from "./marble.jpg";
 import monument from "./monument.webp";
 import parkingstone from "./parking-stone.jpeg";
 import tiles from "./tiles.jpg";
-import coolroof from "./coolroof.jpg";
+import coolroof from "./coolroof.jpeg";
 import falsec from "./false.jpg";
 import wallpanels from "./wallpanels.jpg";
 import wardrobe from "./wardrobe.jpg";
@@ -62,9 +62,11 @@ import hills from "./hills.jpg";
 import reds from "./reds.jpg";
 import wetmix from "./wetmix.jpeg";
 import rubbishs from "./rubbishs.jpg";
-
-
-
+import construction from "./construction.jpg";
+import milling from "./milling.jpeg";
+import ongoing1 from "./ongoing1.jpeg";
+import ongoing2 from "./ongoing2.jpeg";
+import ongoing3 from "./ongoing3.jpeg";
 
 
 const assets = { logo, phoneIcon, mailIcon, locationIcon, clockIcon, LitemailIcon, LitephoneIcon, dehero, call, quote,
@@ -72,7 +74,7 @@ const assets = { logo, phoneIcon, mailIcon, locationIcon, clockIcon, LitemailIco
      loans, msand, nicesand, riversand, roughsand, whitemsand, coolroof, tiles, parkingstone, monument, marble, granite,
     falsec, wallpanels, wardrobe, wood, modular, aac, bricks, flyash, paver, solargov, personalloan, moving, lease, landfs,
     homeloan, businessloan, burmateak, blifting, berger, bdemolition, baby, chips, wetmix, gsb, rubbishs, reds, hills, 
-    flyashdust, fillings, dusts };
+    flyashdust, fillings, dusts, construction, milling, ongoing1, ongoing2, ongoing3 };
 
 const products = [
   { id: 1, name: "M-Sand", category: "Sand", image: assets.msand },
@@ -84,7 +86,7 @@ const products = [
   { id: 7, name: "Hill Soil", category: "Basement Filling Materials", image: assets.hills },
   { id: 8, name: "Red Soil", category: "Basement Filling Materials", image: assets.reds },
   { id: 9, name: "Rubbish", category: "Basement Filling Materials", image: assets.rubbishs },
-  { id: 10, name: "Milling", category: "Basement Filling Materials", image: assets.solar },
+  { id: 10, name: "Milling", category: "Basement Filling Materials", image: assets.milling },
   { id: 11, name: "Dust", category: "Basement Filling Materials", image: assets.dusts },
   { id: 12, name: "Flyash Dust", category: "Basement Filling Materials", image: assets.flyashdust },
   { id: 13, name: "1/2 Jelly", category: "Jelly", image: assets.jelly },
@@ -121,6 +123,11 @@ const products = [
   { id: 44, name: "Burma Teak Wood and Furnitures", category: "Furniture", image: assets.burmateak },
   { id: 45, name: "Berger Paints", category: "Decorative Paints", image: assets.berger },
   { id: 46, name: "On-Grid and Off-Grid Solar Panels with Subsidy", category: "Solar Electrical Roofing", image: assets.solargov },
+  { id: 47, name: "Ongoing Project", category: "Building Constructions", image: assets.ongoing1 },
+  { id: 48, name: "Ongoing Project", category: "Building Constructions", image: assets.ongoing2 },
+  { id: 49, name: "Complete Project", category: "Building Constructions", image: assets.ongoing3 },
+
+
 ];
 
 export {products};
