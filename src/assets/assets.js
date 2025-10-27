@@ -10,7 +10,7 @@ import call from "./call.png";
 import quote from "./quote.png";
 import delivery from "./delivery.png";
 import solar from "./solar.png";
-import sand from "./sand.png";
+import sand from "./sand.jpg";
 import realestate from "./realestate.png";
 import paints from "./paints.png";
 import interior from "./interior.png";
@@ -25,7 +25,7 @@ import msand from "./m-sand.jpg";
 import nicesand from "./nice-sand.jpg";
 import riversand from "./river-sand.jpg";
 import roughsand from "./rough-sand.jpg";
-import whitemsand from "./white-msand.jpeg";
+import whitemsand from "./white-msand.jpg";
 import granite from "./granite.jpg";
 import marble from "./marble.jpg";
 import monument from "./monument.webp";
@@ -125,7 +125,7 @@ const products = [
   { id: 46, name: "On-Grid and Off-Grid Solar Panels with Subsidy", category: "Solar Electrical Roofing", image: assets.solargov },
   { id: 47, name: "Ongoing Project", category: "Building Constructions", image: assets.ongoing1 },
   { id: 48, name: "Ongoing Project", category: "Building Constructions", image: assets.ongoing2 },
-  { id: 49, name: "Complete Project", category: "Building Constructions", image: assets.ongoing3 },
+  { id: 49, name: "Ongoing Project", category: "Building Constructions", image: assets.ongoing3 },
 
 
 ];
