@@ -19,73 +19,73 @@ const Home = () => {
       id: 2,
       image: assets.flooring,
       title: "Flooring Materials",
-      desc: "High-grade construction sand perfect for building foundations.",
+      desc: "Versatile flooring materials that enhance interiors with style, comfort, and functionality.",
     },
     {
       id: 3,
       image: assets.interior,
       title: "Interior Design",
-      desc: "Pure silica sand for specialized construction applications.",
+      desc: "Elegant and innovative interior designs crafted to elevate ambiance, comfort, and style.",
     },
     {
       id: 4,
       image: assets.building,
       title: "Building Structure Materials",
-      desc: "Specially graded sand for concrete mixing and masonry work.",
+      desc: "Specially graded materials for concrete mixing and masonry work.",
     },
     {
       id: 5,
       image: assets.realestate,
       title: "Real Estate",
-      desc: "Premium quality river sand for construction and concrete work.",
+      desc: "Real estate projects designed to redefine urban living with modern architecture and strategic locations.",
     },
     {
       id: 6,
       image: assets.furniture,
       title: "Furniture",
-      desc: "High-grade construction sand perfect for building foundations.",
+      desc: "Premium furniture crafted for comfort, durability, and timeless design.",
     },
     {
       id: 7,
       image: assets.paints,
       title: "Decorative Paints",
-      desc: "Pure silica sand for specialized construction applications.",
+      desc: "High-quality paints from berger, formulated for lasting color, protection, and smooth finishes.",
     },
     {
       id: 8,
       image: assets.solar,
-      title: "Solar Electrical Roofing",
-      desc: "Specially graded sand for concrete mixing and masonry work.",
+      title: "Solar Panels",
+      desc: "High-efficiency solar panels engineered for reliable, sustainable energy generation.",
     },
     {
       id: 9,
       image: assets.jelly,
       title: "Jelly",
-      desc: "Specially graded sand for concrete mixing and masonry work.",
+      desc: "High-strength jelly aggregates for durable concrete and foundation applications.",
     },
     {
       id: 10,
       image: assets.filling,
       title: "Basement Filling Materials",
-      desc: "Specially graded sand for concrete mixing and masonry work.",
+      desc: "High-quality basement filling materials ensuring stability, drainage, and structural integrity.",
     },
     {
       id: 11,
       image: assets.loans,
       title: "Loans",
-      desc: "Specially graded sand for concrete mixing and masonry work.",
+      desc: "Flexible loan solutions designed to meet personal, business, and property financing needs.",
     },
     {
       id: 12,
       image: assets.alteration,
       title: "Building Alteration",
-      desc: "Specially graded sand for concrete mixing and masonry work.",
+      desc: "Expert building alteration services for structural modifications and functional upgrades.",
     },
     {
       id:13,
       image: assets.construction,
       title: "Building Constructions",
-      desc: "Our projects.",
+      desc: "High quality constructions with trusted service",
     },
   ];
 
@@ -222,7 +222,7 @@ const Home = () => {
           </p>
           <div className="get-quote-buttons">
             <a href="https://wa.me/919840929131" target="_blank" rel="noopener noreferrer"><button className="quote-btn primary">Get Free Quote</button></a>
-            <a href="tel:+919790976509"><button className="quote-btn secondary">Call Now: +91 97909 76509</button></a>
+            <a href="tel:+919840929131"><button className="quote-btn secondary">Call Now: +91 9840929131</button></a>
           </div>
         </div>
       </section>

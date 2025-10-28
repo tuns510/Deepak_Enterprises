@@ -29,7 +29,7 @@ const ProductListing = () => {
                             <div className="product-info">
                                 <span className="product-category">{product.category}</span>
                                 <h3>{product.name}</h3>
-                                <p>High-quality materials with trusted service.</p>
+                                <p>{product.description}</p>
                                 <a href="tel:+919840929131"><button>Contact for Price</button></a>
                             </div>
                         </div>
