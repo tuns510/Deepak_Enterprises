@@ -5,7 +5,7 @@ import mailIcon from "./emailIcon.png";
 import LitemailIcon from "./liteemailIcon.png";
 import clockIcon from "./clockIcon.png";
 import locationIcon from "./locationIcon.png";
-import dehero from "./dehero.png";
+import dehero from "./dehero.jpeg";
 import call from "./call.png";
 import quote from "./quote.png";
 import delivery from "./delivery.png";
