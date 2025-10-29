@@ -71,7 +71,10 @@ import complete1 from "./complete1.jpeg";
 import complete2 from "./complete2.jpeg";
 import furniture1 from "./furniture1.jpeg";
 import furniture3 from "./furniture3.jpg";
-
+import weathercoat from "./weathercoat.jpeg";
+import longlasting from "./longlasting.jpeg";
+import trust from "./trust.jpeg";
+import projectloan from "./projectloan.jpeg";
 
 
 const assets = { logo, phoneIcon, mailIcon, locationIcon, clockIcon, LitemailIcon, LitephoneIcon, dehero, call, quote,
@@ -79,7 +82,8 @@ const assets = { logo, phoneIcon, mailIcon, locationIcon, clockIcon, LitemailIco
      loans, msand, nicesand, riversand, roughsand, whitemsand, coolroof, tiles, parkingstone, monument, marble, granite,
     falsec, wallpanels, wardrobe, wood, modular, aac, bricks, flyash, paver, solargov, personalloan, moving, lease, landfs,
     homeloan, businessloan, burmateak, blifting, berger, bdemolition, baby, chips, wetmix, gsb, rubbishs, reds, hills, 
-    flyashdust, fillings, dusts, construction, milling, ongoing1, ongoing2, ongoing3, complete1, complete2, furniture1, furniture3 };
+    flyashdust, fillings, dusts, construction, milling, ongoing1, ongoing2, ongoing3, complete1, complete2, furniture1, furniture3,
+    weathercoat, longlasting, trust, projectloan };
 
 const products = [
   { id: 1, name: "M-Sand", category: "Sand", image: assets.msand, description: "High-quality materials with trusted service"},
@@ -136,6 +140,10 @@ const products = [
   { id: 52, name: "Wooden Backrest Swing", category: "Furniture", image: assets.furniture1, description: "High-quality furnitures." },
   { id: 53, name: "Dinning Table", category: "Furniture", image: assets.furniture, description: "High-quality furnitures." },
   { id: 54, name: "Chair+Sofa", category: "Furniture", image: assets.furniture3, description: "High-quality furnitures." },
+  { id: 55, name: "100 Years of trust", category: "Decorative Paints", image: assets.trust , description: "High-quality paints." },
+  { id: 56, name: "Weathercoat Range", category: "Decorative Paints", image: assets.weathercoat , description: "High-quality paints."  },
+  { id: 57, name: "Long Lasting", category: "Decorative Paints", image: assets.longlasting , description: "High-quality paints."  },
+  { id: 58, name: "Loan for Projects", category: "Loans", image: assets.projectloan, description: "Easy financing to achieve your goals." },
 ];
 
 export {products};

@@ -1,5 +1,6 @@
 import React from 'react'
 import { HashLink } from 'react-router-hash-link';
+import { HeadProvider, Title, Meta, Link as HeadLink } from 'react-head'
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 import assets from '../../assets/assets'
@@ -82,7 +83,7 @@ const Home = () => {
       desc: "Expert building alteration services for structural modifications and functional upgrades.",
     },
     {
-      id:13,
+      id: 13,
       image: assets.construction,
       title: "Building Constructions",
       desc: "High quality constructions with trusted service",
@@ -111,124 +112,141 @@ const Home = () => {
   ];
 
   return (
-    <div>
-      <Header />
 
-      <section className="hero-section">
-        <img src={assets.dehero} alt="Sand and Construction Materials" className="hero-bg" />
-        <div className="hero-overlay">
-          <div className="hero-content">
-            <h1 className="hero-title">
-              Premium Quality Sand & <br /> Construction Materials
-            </h1>
-            <p className="hero-subtitle">
-              Your trusted partner for all construction material needs.
-              Quality guaranteed, delivery on time.
-            </p>
-            <div className="hero-buttons">
-              <a href="https://wa.me/919840929131" target="_blank" rel="noopener noreferrer"><button className="btn btn-primary">Get Quote Now</button></a>
-              <HashLink smooth to='#product-category'><button className="btn btn-outline">View Products</button></HashLink>
-            </div>
-          </div>
-        </div>
-      </section>
+    <HeadProvider>
+      <Title>Deepak Enterprises | Sand, Blocks, Construction Materials & Interiors in Chennai</Title>
+      <Meta name="description" content="Deepak Enterprises supplies premium sand, M-sand, river sand, construction blocks, paints, interiors, jelly, and building materials in Chennai." />
+      <Meta name="keywords" content="Deepak Enterprises, sand in Chennai, construction materials Chennai, m-sand, river sand, blocks, jelly, paints, Deepak group of companies, Tanisha Enterprises, furniture, interiors, loans, building alteration" />
+      <Meta name="robots" content="index, follow" />
+      <Meta property="og:title" content="Deepak Enterprises | Trusted Supplier of Construction Materials in Chennai" />
+      <Meta property="og:description" content="Premium quality sand, blocks, paints, interiors, and construction materials from Deepak Enterprises, Chennai." />
+      <Meta property="og:image" content="https://www.deepakenterprises.in/og-image.jpg" />
+      <Meta property="og:url" content="https://www.deepakenterprises.in/" />
+      <Meta property="og:type" content="website" />
+      <Meta name="twitter:card" content="summary_large_image" />
+      <Meta name="twitter:title" content="Deepak Enterprises | Construction Materials Chennai" />
+      <Meta name="twitter:description" content="Your trusted source for sand, blocks, interiors, and paints in Chennai." />
+      <HeadLink rel="canonical" href="https://www.deepakenterprises.in/" />
 
-      <section id="about-de">
-        <div className="about-de-container">
+      <div>
+        <Header />
 
-          {/* Left Content */}
-          <div className="about-de-content">
-            <h2 className="about-de-title">About Us</h2>
-            <p className="about-de-text">
-              With over two decades of experience in the construction materials industry,
-              Deepak Enterprise has established itself as a reliable supplier of premium
-              quality sand and construction materials across the region.
-            </p>
-            <p className="about-de-text">
-              We pride ourselves on delivering consistent quality, competitive pricing,
-              and exceptional customer service. Our commitment to excellence has made us
-              the preferred choice for contractors, builders, and construction companies.
-            </p>
-
-            <div className="about-de-stats">
-              <div className="stat-item">
-                <h3>20+</h3>
-                <span>Years Experience</span>
-              </div>
-              <div className="stat-item">
-                <h3>500+</h3>
-                <span>Happy Clients</span>
-              </div>
-              <div className="stat-item">
-                <h3>10K+</h3>
-                <span>Projects Completed</span>
+        <section className="hero-section">
+          <img src={assets.dehero} alt="Sand and Construction Materials" className="hero-bg" />
+          <div className="hero-overlay">
+            <div className="hero-content">
+              <h1 className="hero-title">
+                Premium Quality Sand & <br /> Construction Materials
+              </h1>
+              <p className="hero-subtitle">
+                Your trusted partner for all construction material needs.
+                Quality guaranteed, delivery on time.
+              </p>
+              <div className="hero-buttons">
+                <a href="https://wa.me/919840929131" target="_blank" rel="noopener noreferrer"><button className="btn btn-primary">Get Quote Now</button></a>
+                <HashLink smooth to='#product-category'><button className="btn btn-outline">View Products</button></HashLink>
               </div>
             </div>
           </div>
+        </section>
 
-          {/* Right Image */}
-          <div className="about-de-image">
-            <img src={assets.dehero} alt="Sand and Construction Materials" />
-          </div>
-        </div>
-      </section>
+        <section id="about-de">
+          <div className="about-de-container">
 
-      <section className="how-it-works">
-        <div className="how-it-works-container">
-          <h2 className="how-it-works-title">How It Works</h2>
-          <p className="how-it-works-subtitle">
-            Our streamlined process ensures you get the right materials at the right time with minimal hassle.
-          </p>
+            {/* Left Content */}
+            <div className="about-de-content">
+              <h2 className="about-de-title">About Us</h2>
+              <p className="about-de-text">
+                With over two decades of experience in the construction materials industry,
+                Deepak Enterprise has established itself as a reliable supplier of premium
+                quality sand and construction materials across the region.
+              </p>
+              <p className="about-de-text">
+                We pride ourselves on delivering consistent quality, competitive pricing,
+                and exceptional customer service. Our commitment to excellence has made us
+                the preferred choice for contractors, builders, and construction companies.
+              </p>
 
-          <div className="how-it-works-steps">
-            {steps.map((step) => (
-              <div className="how-it-works-step" key={step.id}>
-                <div className="step-icon">
-                  <img src={step.icon} alt={step.title} />
+              <div className="about-de-stats">
+                <div className="stat-item">
+                  <h3>20+</h3>
+                  <span>Years Experience</span>
                 </div>
-                <h3 className="step-title">{step.id}. {step.title}</h3>
-                <p className="step-desc">{step.desc}</p>
+                <div className="stat-item">
+                  <h3>500+</h3>
+                  <span>Happy Clients</span>
+                </div>
+                <div className="stat-item">
+                  <h3>10K+</h3>
+                  <span>Projects Completed</span>
+                </div>
               </div>
-            ))}
+            </div>
+
+            {/* Right Image */}
+            <div className="about-de-image">
+              <img src={assets.dehero} alt="Sand and Construction Materials" />
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section id="product-category">
-        <div className="product-category-container">
-          <h2 className="product-category-title">Products under Deepak & Tanisha Enterprises</h2>
-          <p className="product-category-subtitle">
-            We offer a comprehensive range of high-quality sand and other materials for all your project needs.
-          </p>
+        <section className="how-it-works">
+          <div className="how-it-works-container">
+            <h2 className="how-it-works-title">How It Works</h2>
+            <p className="how-it-works-subtitle">
+              Our streamlined process ensures you get the right materials at the right time with minimal hassle.
+            </p>
 
-          <div className="product-grid">
-            {categories.map((cat) => (
-              <HashLink to={`/products/${encodeURIComponent(cat.title.toLowerCase())}#product-listing`} key={cat.id} className='product-link' ><div className="product-card">
-                <img src={cat.image} alt={cat.title} className="product-img" />
-                <h3 className="product-name">{cat.title}</h3>
-                <p className="product-desc">{cat.desc}</p>
-              </div>
-              </HashLink>
-            ))}
+            <div className="how-it-works-steps">
+              {steps.map((step) => (
+                <div className="how-it-works-step" key={step.id}>
+                  <div className="step-icon">
+                    <img src={step.icon} alt={step.title} />
+                  </div>
+                  <h3 className="step-title">{step.id}. {step.title}</h3>
+                  <p className="step-desc">{step.desc}</p>
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section id="get-quote">
-        <div className="get-quote-container">
-          <h2 className="get-quote-title">Ready to Get Started?</h2>
-          <p className="get-quote-subtitle">
-            Contact us today for a free quote and let us help you with your construction material needs.
-          </p>
-          <div className="get-quote-buttons">
-            <a href="https://wa.me/919840929131" target="_blank" rel="noopener noreferrer"><button className="quote-btn primary">Get Free Quote</button></a>
-            <a href="tel:+919840929131"><button className="quote-btn secondary">Call Now: +91 9840929131</button></a>
+        <section id="product-category">
+          <div className="product-category-container">
+            <h2 className="product-category-title">Products under Deepak & Tanisha Enterprises</h2>
+            <p className="product-category-subtitle">
+              We offer a comprehensive range of high-quality sand and other materials for all your project needs.
+            </p>
+
+            <div className="product-grid">
+              {categories.map((cat) => (
+                <HashLink to={`/products/${encodeURIComponent(cat.title.toLowerCase())}#product-listing`} key={cat.id} className='product-link' ><div className="product-card">
+                  <img src={cat.image} alt={cat.title} className="product-img" />
+                  <h3 className="product-name">{cat.title}</h3>
+                  <p className="product-desc">{cat.desc}</p>
+                </div>
+                </HashLink>
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <Footer />
-    </div>
+        <section id="get-quote">
+          <div className="get-quote-container">
+            <h2 className="get-quote-title">Ready to Get Started?</h2>
+            <p className="get-quote-subtitle">
+              Contact us today for a free quote and let us help you with your construction material needs.
+            </p>
+            <div className="get-quote-buttons">
+              <a href="https://wa.me/919840929131" target="_blank" rel="noopener noreferrer"><button className="quote-btn primary">Get Free Quote</button></a>
+              <a href="tel:+919840929131"><button className="quote-btn secondary">Call Now: +91 9840929131</button></a>
+            </div>
+          </div>
+        </section>
+
+        <Footer />
+      </div>
+    </HeadProvider>
   )
 }
 
